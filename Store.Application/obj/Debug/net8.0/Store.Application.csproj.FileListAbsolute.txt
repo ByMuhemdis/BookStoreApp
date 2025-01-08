@@ -13,3 +13,4 @@ C:\Users\Ömer\Desktop\BookStore\Store.Application\bin\Debug\net8.0\Entities.dll
 C:\Users\Ömer\Desktop\BookStore\Store.Application\bin\Debug\net8.0\Entities.pdb
 C:\Users\Ömer\Desktop\BookStore\Store.Application\obj\Debug\net8.0\Store.Application.csproj.AssemblyReference.cache
 C:\Users\Ömer\Desktop\BookStore\Store.Application\obj\Debug\net8.0\Store.Ap.C122FA30.Up2Date
+C:\Users\Ömer\Desktop\BookStore\Store.Application\obj\Debug\net8.0\Store.Application.sourcelink.json

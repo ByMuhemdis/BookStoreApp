@@ -9,13 +9,13 @@ namespace Stroe.Services.IService.IBookServices
 {
     public interface IBookService
     {
-        Task<Book> GetBookByIdAsync(int Id);
+        Task<Book> GetBookByIdAsync(int Id, bool tracking);
         Task<IEnumerable <Book>> GetBookAllAsync(bool tracking);
 
         Task<bool> AddBookAsync(Book book);
-        Task<bool> DeleteBookById(int Id,bool tracking);
+        Task<bool> DeleteBookByIdAsync(int Id,bool tracking);
 
-        Task<bool> UpdateBook(int Id, Book book);
+        Task<bool> UpdateBookAsync(int Id, Book book);
         
 
     }

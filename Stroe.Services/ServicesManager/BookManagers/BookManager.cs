@@ -9,12 +9,12 @@ using System.Security.AccessControl;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Stroe.Services.ServiceManager.BookManagers
+namespace Stroe.Services.ServicesManager.BookManagers
 {
     public class BookManager : IBookService
     {
-       // private readonly IBookReposirtory _bookRepository;//bunu bu şekilde kullanmak yerine repository manager kullanarak erkezi yonden hem repositoryleri daha kolay kullanırız hemde karmasıklılıgı önleyebiliriz.
-       
+        // private readonly IBookReposirtory _bookRepository;//bunu bu şekilde kullanmak yerine repository manager kullanarak erkezi yonden hem repositoryleri daha kolay kullanırız hemde karmasıklılıgı önleyebiliriz.
+
         private readonly IRepositoryManager _manager;
 
         public BookManager(IRepositoryManager manager)
@@ -24,7 +24,7 @@ namespace Stroe.Services.ServiceManager.BookManagers
 
         public async Task<bool> AddBookAsync(Book book)
         {
-            if (book == null) 
+            if (book == null)
                 throw new ArgumentNullException(nameof(book));
 
             var result = await _manager.BookReposirtory.AddAsync(book);
@@ -32,9 +32,9 @@ namespace Stroe.Services.ServiceManager.BookManagers
             return result;
         }
 
-        public async Task<bool> DeleteBookById(int Id, bool tracking)
+        public async Task<bool> DeleteBookByIdAsync(int Id, bool tracking)
         {
-            if(Id ==null)
+            if (Id == null)
                 throw new ArgumentNullException(nameof(Id));
             var bookDelete = await _manager.BookReposirtory.GetByIdAsync(Id);
             if (bookDelete == null)
@@ -47,30 +47,31 @@ namespace Stroe.Services.ServiceManager.BookManagers
 
         public async Task<IEnumerable<Book>> GetBookAllAsync(bool tracking)
         {
-            var AllBook= await _manager.BookReposirtory.GetAllAsync(false);
+            var AllBook = await _manager.BookReposirtory.GetAllAsync(false);
             return AllBook.ToList();
         }
 
-        public async Task<Book> GetBookByIdAsync(int Id)
+        public async Task<Book> GetBookByIdAsync(int Id, bool tracking)
         {
-            if(Id == null) 
+            if (Id == null)
                 throw new ArgumentNullException(nameof(Id));
             var result = await _manager.BookReposirtory.GetByIdAsync(Id, false);
-            if(result == null)
+            if (result == null)
                 throw new ArgumentNullException(nameof(result));
             return result;
 
         }
 
-        public async Task<bool> UpdateBook(int Id, Book book)
-        {
-            var updateBook= await _manager.BookReposirtory.GetByIdAsync(Id,true);
 
-            if(updateBook == null)
+        public async Task<bool> UpdateBookAsync(int Id, Book book)
+        {
+            var updateBook = await _manager.BookReposirtory.GetByIdAsync(Id, true);
+
+            if (updateBook == null)
                 throw new ArgumentNullException(nameof(updateBook));
             if (Id != book.Id)
                 throw new ArgumentException($"Not Found {Id} is Book Table");
-            
+
             updateBook.Title = book.Title;
             updateBook.Description = book.Description;
             updateBook.PublishhedDate = book.PublishhedDate;
@@ -80,7 +81,7 @@ namespace Stroe.Services.ServiceManager.BookManagers
             updateBook.AuthorId = book.AuthorId;
 
             _manager.BookReposirtory.Update(updateBook);
-           await _manager.BookReposirtory.SaveAsync();
+            await _manager.BookReposirtory.SaveAsync();
             return true;
 
         }

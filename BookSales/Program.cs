@@ -1,4 +1,5 @@
 using Store.Persistence.Extensions;
+using Stroe.Services.Extensions;
 namespace BookSales
 {
     public class Program
@@ -19,6 +20,8 @@ namespace BookSales
 
             //Repositoryler veya Rpository kaydýný yapýyoruz bu yuzden oluþturudugumuz sýnýfýn adýný yazýyoruz
             builder.Services.ConfugureRepositoryManager();
+            //Serviceler için Manager veya tek tek kaydettigmz Extencation kýsmýndaki confugurayyonu buraya tanýmlayarak serviceleri her yerde kullanalým.
+            builder.Services.ConfugureServices();
 
 
 
