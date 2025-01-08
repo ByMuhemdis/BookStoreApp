@@ -1,0 +1,15 @@
+C:\Users\Ömer\Desktop\BookStore\Store.Application\bin\Debug\net8.0\Store.Application.deps.json
+C:\Users\Ömer\Desktop\BookStore\Store.Application\bin\Debug\net8.0\Store.Application.dll
+C:\Users\Ömer\Desktop\BookStore\Store.Application\bin\Debug\net8.0\Store.Application.pdb
+C:\Users\Ömer\Desktop\BookStore\Store.Application\obj\Debug\net8.0\Store.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ömer\Desktop\BookStore\Store.Application\obj\Debug\net8.0\Store.Application.AssemblyInfoInputs.cache
+C:\Users\Ömer\Desktop\BookStore\Store.Application\obj\Debug\net8.0\Store.Application.AssemblyInfo.cs
+C:\Users\Ömer\Desktop\BookStore\Store.Application\obj\Debug\net8.0\Store.Application.csproj.CoreCompileInputs.cache
+C:\Users\Ömer\Desktop\BookStore\Store.Application\obj\Debug\net8.0\Store.Application.dll
+C:\Users\Ömer\Desktop\BookStore\Store.Application\obj\Debug\net8.0\refint\Store.Application.dll
+C:\Users\Ömer\Desktop\BookStore\Store.Application\obj\Debug\net8.0\Store.Application.pdb
+C:\Users\Ömer\Desktop\BookStore\Store.Application\obj\Debug\net8.0\ref\Store.Application.dll
+C:\Users\Ömer\Desktop\BookStore\Store.Application\bin\Debug\net8.0\Entities.dll
+C:\Users\Ömer\Desktop\BookStore\Store.Application\bin\Debug\net8.0\Entities.pdb
+C:\Users\Ömer\Desktop\BookStore\Store.Application\obj\Debug\net8.0\Store.Application.csproj.AssemblyReference.cache
+C:\Users\Ömer\Desktop\BookStore\Store.Application\obj\Debug\net8.0\Store.Ap.C122FA30.Up2Date

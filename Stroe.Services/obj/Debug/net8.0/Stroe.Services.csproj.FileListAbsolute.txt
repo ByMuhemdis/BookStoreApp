@@ -1,0 +1,17 @@
+C:\Users\Ömer\Desktop\BookStore\Stroe.Services\bin\Debug\net8.0\Stroe.Services.deps.json
+C:\Users\Ömer\Desktop\BookStore\Stroe.Services\bin\Debug\net8.0\Stroe.Services.dll
+C:\Users\Ömer\Desktop\BookStore\Stroe.Services\bin\Debug\net8.0\Stroe.Services.pdb
+C:\Users\Ömer\Desktop\BookStore\Stroe.Services\obj\Debug\net8.0\Stroe.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ömer\Desktop\BookStore\Stroe.Services\obj\Debug\net8.0\Stroe.Services.AssemblyInfoInputs.cache
+C:\Users\Ömer\Desktop\BookStore\Stroe.Services\obj\Debug\net8.0\Stroe.Services.AssemblyInfo.cs
+C:\Users\Ömer\Desktop\BookStore\Stroe.Services\obj\Debug\net8.0\Stroe.Services.csproj.CoreCompileInputs.cache
+C:\Users\Ömer\Desktop\BookStore\Stroe.Services\obj\Debug\net8.0\Stroe.Services.dll
+C:\Users\Ömer\Desktop\BookStore\Stroe.Services\obj\Debug\net8.0\refint\Stroe.Services.dll
+C:\Users\Ömer\Desktop\BookStore\Stroe.Services\obj\Debug\net8.0\Stroe.Services.pdb
+C:\Users\Ömer\Desktop\BookStore\Stroe.Services\obj\Debug\net8.0\ref\Stroe.Services.dll
+C:\Users\Ömer\Desktop\BookStore\Stroe.Services\bin\Debug\net8.0\Entities.dll
+C:\Users\Ömer\Desktop\BookStore\Stroe.Services\bin\Debug\net8.0\Store.Application.dll
+C:\Users\Ömer\Desktop\BookStore\Stroe.Services\bin\Debug\net8.0\Entities.pdb
+C:\Users\Ömer\Desktop\BookStore\Stroe.Services\bin\Debug\net8.0\Store.Application.pdb
+C:\Users\Ömer\Desktop\BookStore\Stroe.Services\obj\Debug\net8.0\Stroe.Services.csproj.AssemblyReference.cache
+C:\Users\Ömer\Desktop\BookStore\Stroe.Services\obj\Debug\net8.0\Stroe.Se.D7EFD535.Up2Date
