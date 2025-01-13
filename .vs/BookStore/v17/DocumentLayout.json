@@ -1,20 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\\u00D6mer\\Desktop\\BookStore\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{8EF4D2CF-5181-4C7C-B700-094FD8AFB961}|Stroe.Services\\Stroe.Services.csproj|c:\\users\\\u00F6mer\\desktop\\bookstore\\stroe.services\\servicesmanager\\categorymanagers\\categorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8EF4D2CF-5181-4C7C-B700-094FD8AFB961}|Stroe.Services\\Stroe.Services.csproj|solutionrelative:stroe.services\\servicesmanager\\categorymanagers\\categorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8EF4D2CF-5181-4C7C-B700-094FD8AFB961}|Stroe.Services\\Stroe.Services.csproj|c:\\users\\\u00F6mer\\desktop\\bookstore\\stroe.services\\servicesmanager\\bookmanagers\\bookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8EF4D2CF-5181-4C7C-B700-094FD8AFB961}|Stroe.Services\\Stroe.Services.csproj|solutionrelative:stroe.services\\servicesmanager\\bookmanagers\\bookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8EF4D2CF-5181-4C7C-B700-094FD8AFB961}|Stroe.Services\\Stroe.Services.csproj|c:\\users\\\u00F6mer\\desktop\\bookstore\\stroe.services\\servicesmanager\\authormanagers\\authormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8EF4D2CF-5181-4C7C-B700-094FD8AFB961}|Stroe.Services\\Stroe.Services.csproj|solutionrelative:stroe.services\\servicesmanager\\authormanagers\\authormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -22,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,45 +18,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AuthorManager.cs",
-              "DocumentMoniker": "C:\\Users\\\u00D6mer\\Desktop\\BookStore\\Stroe.Services\\ServicesManager\\AuthorManagers\\AuthorManager.cs",
-              "RelativeDocumentMoniker": "Stroe.Services\\ServicesManager\\AuthorManagers\\AuthorManager.cs",
-              "ToolTip": "C:\\Users\\\u00D6mer\\Desktop\\BookStore\\Stroe.Services\\ServicesManager\\AuthorManagers\\AuthorManager.cs",
-              "RelativeToolTip": "Stroe.Services\\ServicesManager\\AuthorManagers\\AuthorManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T14:35:22.129Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CategoryManager.cs",
-              "DocumentMoniker": "C:\\Users\\\u00D6mer\\Desktop\\BookStore\\Stroe.Services\\ServicesManager\\CategoryManagers\\CategoryManager.cs",
-              "RelativeDocumentMoniker": "Stroe.Services\\ServicesManager\\CategoryManagers\\CategoryManager.cs",
-              "ToolTip": "C:\\Users\\\u00D6mer\\Desktop\\BookStore\\Stroe.Services\\ServicesManager\\CategoryManagers\\CategoryManager.cs",
-              "RelativeToolTip": "Stroe.Services\\ServicesManager\\CategoryManagers\\CategoryManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T14:35:06.322Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BookManager.cs",
-              "DocumentMoniker": "C:\\Users\\\u00D6mer\\Desktop\\BookStore\\Stroe.Services\\ServicesManager\\BookManagers\\BookManager.cs",
-              "RelativeDocumentMoniker": "Stroe.Services\\ServicesManager\\BookManagers\\BookManager.cs",
-              "ToolTip": "C:\\Users\\\u00D6mer\\Desktop\\BookStore\\Stroe.Services\\ServicesManager\\BookManagers\\BookManager.cs",
-              "RelativeToolTip": "Stroe.Services\\ServicesManager\\BookManagers\\BookManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T14:35:01.761Z",
-              "EditorCaption": ""
             }
           ]
         }

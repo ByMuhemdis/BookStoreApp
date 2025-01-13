@@ -28,6 +28,10 @@ namespace Stroe.Services.Extensions
             /// istege göre digerleride kaydedilebilir biz burada kısa yoldan service manager uzerinden servistelirn tamamına ulaşacagız.
             /// 
 
+            //Log service IOc kaydı
+
+             services.AddSingleton<ILoggerService, LoggerManager>();
+
         }
     }
 }

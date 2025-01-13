@@ -1,6 +1,7 @@
 ﻿using Entities.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Store.Application.DTOs.AuthorDtos;
 using Stroe.Services.IService;
 
 namespace BookSales.Controllers
@@ -30,9 +31,9 @@ namespace BookSales.Controllers
         }
 
         [HttpPost("[action]")]
-        public async Task<IActionResult> CreateOneAuthor(Author author)
+        public async Task<IActionResult> CreateOneAuthor(AuthorDto authorDto)
         {
-            var response = await _serviceManager.AuthorService.AddAuthorAsync(author);
+            var response = await _serviceManager.AuthorService.AddAuthorAsync(authorDto);
             return Ok(response);
         }
         [HttpDelete("[action]")]
@@ -42,9 +43,9 @@ namespace BookSales.Controllers
             return Ok(response);
         }
         [HttpPut("[action]")]
-        public async Task<IActionResult> UpdateOneAuthor(int id, Author author)
+        public async Task<IActionResult> UpdateOneAuthor(int id, AuthorDto authorDto)
         {
-            var response = await _serviceManager.AuthorService.UpdateAuthorAsync(id,author);
+            var response = await _serviceManager.AuthorService.UpdateAuthorAsync(id, authorDto);
             return Ok(response);
 
         }

@@ -1,0 +1,168 @@
+2025-01-09 17:07:40.8296 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-01-09 17:07:40.8916 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2025-01-09 17:07:40.9069 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Ömer\Desktop\BookStore\BookSales\nlog.config
+2025-01-09 17:07:40.9212 Info Configuration initialized.
+2025-01-09 17:47:48.6745 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-01-09 17:47:48.6954 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2025-01-09 17:47:48.7099 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Ömer\Desktop\BookStore\BookSales\nlog.config
+2025-01-09 17:47:48.7273 Info Configuration initialized.
+2025-01-09 17:48:56.3507 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-01-09 17:48:56.3650 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2025-01-09 17:48:56.3650 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Ömer\Desktop\BookStore\BookSales\nlog.config
+2025-01-09 17:48:56.3882 Info Configuration initialized.
+2025-01-09 17:49:37.1307 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-01-09 17:49:37.1455 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2025-01-09 17:49:37.1455 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Ömer\Desktop\BookStore\BookSales\nlog.config
+2025-01-09 17:49:37.1734 Info Configuration initialized.
+2025-01-09 17:51:06.9338 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-01-09 17:51:06.9471 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2025-01-09 17:51:06.9563 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Ömer\Desktop\BookStore\BookSales\nlog.config
+2025-01-09 17:51:06.9563 Info Configuration initialized.
+2025-01-09 17:56:45.4431 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-01-09 17:56:45.4606 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2025-01-09 17:56:45.4752 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Ömer\Desktop\BookStore\BookSales\nlog.config
+2025-01-09 17:56:45.4938 Info Configuration initialized.
+2025-01-09 17:59:34.2151 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-01-09 17:59:34.2301 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2025-01-09 17:59:34.2378 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Ömer\Desktop\BookStore\BookSales\nlog.config
+2025-01-09 17:59:34.2378 Info Configuration initialized.
+2025-01-09 17:59:53.1643 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-01-09 17:59:53.1763 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2025-01-09 17:59:53.1763 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Ömer\Desktop\BookStore\BookSales\nlog.config
+2025-01-09 17:59:53.1934 Info Configuration initialized.
+2025-01-09 18:00:24.2569 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-01-09 18:00:24.2682 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2025-01-09 18:00:24.2794 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Ömer\Desktop\BookStore\BookSales\nlog.config
+2025-01-09 18:00:24.2900 Info Configuration initialized.
+2025-01-09 18:03:20.1347 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-01-09 18:03:20.1503 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2025-01-09 18:03:20.1630 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Ömer\Desktop\BookStore\BookSales\nlog.config
+2025-01-09 18:03:20.1757 Info Configuration initialized.
+2025-01-09 18:14:13.8855 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-01-09 18:14:13.9023 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2025-01-09 18:14:13.9139 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Ömer\Desktop\BookStore\BookSales\nlog.config
+2025-01-09 18:14:13.9279 Info Configuration initialized.
+2025-01-09 18:16:23.0049 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-01-09 18:16:23.0166 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2025-01-09 18:16:23.0242 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Ömer\Desktop\BookStore\BookSales\nlog.config
+2025-01-09 18:16:23.0342 Info Configuration initialized.
+2025-01-09 18:18:09.3438 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-01-09 18:18:09.3600 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2025-01-09 18:18:09.3738 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Ömer\Desktop\BookStore\BookSales\nlog.config
+2025-01-09 18:18:09.3895 Info Configuration initialized.
+2025-01-09 18:20:16.5301 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-01-09 18:20:16.5411 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2025-01-09 18:20:16.5411 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Ömer\Desktop\BookStore\BookSales\nlog.config
+2025-01-09 18:20:16.5585 Info Configuration initialized.
+2025-01-09 18:20:55.6734 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-01-09 18:20:55.6876 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2025-01-09 18:20:55.6968 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Ömer\Desktop\BookStore\BookSales\nlog.config
+2025-01-09 18:20:55.7071 Info Configuration initialized.
+2025-01-09 18:21:59.3707 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-01-09 18:21:59.3846 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2025-01-09 18:21:59.3939 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Ömer\Desktop\BookStore\BookSales\nlog.config
+2025-01-09 18:21:59.3939 Info Configuration initialized.
+2025-01-09 18:28:08.0514 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-01-09 18:28:08.0664 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2025-01-09 18:28:08.0664 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Ömer\Desktop\BookStore\BookSales\nlog.config
+2025-01-09 18:28:08.0923 Info Configuration initialized.
+2025-01-09 18:30:47.8355 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-01-09 18:30:47.8499 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2025-01-09 18:30:47.8499 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Ömer\Desktop\BookStore\BookSales\nlog.config
+2025-01-09 18:30:47.8744 Info Configuration initialized.
+2025-01-09 18:33:07.1467 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-01-09 18:33:07.1678 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2025-01-09 18:33:07.1802 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Ömer\Desktop\BookStore\BookSales\nlog.config
+2025-01-09 18:33:07.1950 Info Configuration initialized.
+2025-01-09 18:37:49.0660 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-01-09 18:37:49.0785 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2025-01-09 18:37:49.0891 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Ömer\Desktop\BookStore\BookSales\nlog.config
+2025-01-09 18:37:49.1000 Info Configuration initialized.
+2025-01-09 18:38:19.5899 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-01-09 18:38:19.6031 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2025-01-09 18:38:19.6120 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Ömer\Desktop\BookStore\BookSales\nlog.config
+2025-01-09 18:38:19.6120 Info Configuration initialized.
+2025-01-09 18:39:33.7672 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-01-09 18:39:33.7789 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2025-01-09 18:39:33.7873 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Ömer\Desktop\BookStore\BookSales\nlog.config
+2025-01-09 18:39:33.8000 Info Configuration initialized.
+2025-01-09 18:41:02.6786 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-01-09 18:41:02.6972 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2025-01-09 18:41:02.7094 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Ömer\Desktop\BookStore\BookSales\nlog.config
+2025-01-09 18:41:02.7221 Info Configuration initialized.
+2025-01-09 18:43:59.1378 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-01-09 18:43:59.1521 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2025-01-09 18:43:59.1608 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Ömer\Desktop\BookStore\BookSales\nlog.config
+2025-01-09 18:43:59.1608 Info Configuration initialized.
+2025-01-09 18:51:04.9000 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-01-09 18:51:04.9215 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2025-01-09 18:51:04.9371 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Ömer\Desktop\BookStore\BookSales\nlog.config
+2025-01-09 18:51:04.9532 Info Configuration initialized.
+2025-01-09 18:51:40.3949 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-01-09 18:51:40.4073 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2025-01-09 18:51:40.4165 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Ömer\Desktop\BookStore\BookSales\nlog.config
+2025-01-09 18:51:40.4278 Info Configuration initialized.
+2025-01-09 18:56:17.9883 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-01-09 18:56:18.0010 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2025-01-09 18:56:18.0116 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Ömer\Desktop\BookStore\BookSales\nlog.config
+2025-01-09 18:56:18.0219 Info Configuration initialized.
+2025-01-09 18:56:27.5911 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-01-09 18:56:27.6063 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2025-01-09 18:56:27.6432 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Ömer\Desktop\BookStore\BookSales\nlog.config
+2025-01-09 18:56:27.6617 Info Configuration initialized.
+2025-01-09 18:58:47.7319 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-01-09 18:58:47.7760 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2025-01-09 18:58:47.7947 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Ömer\Desktop\BookStore\BookSales\nlog.config
+2025-01-09 18:58:47.8112 Info Configuration initialized.
+2025-01-09 18:59:16.4341 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-01-09 18:59:16.4455 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2025-01-09 18:59:16.4455 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Ömer\Desktop\BookStore\BookSales\nlog.config
+2025-01-09 18:59:16.4647 Info Configuration initialized.
+2025-01-09 19:01:05.5060 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-01-09 19:01:05.5182 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2025-01-09 19:01:05.5287 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Ömer\Desktop\BookStore\BookSales\nlog.config
+2025-01-09 19:01:05.5456 Info Configuration initialized.
+2025-01-09 19:02:03.7102 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-01-09 19:02:03.7246 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2025-01-09 19:02:03.7372 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Ömer\Desktop\BookStore\BookSales\nlog.config
+2025-01-09 19:02:03.7372 Info Configuration initialized.
+2025-01-10 11:11:18.7663 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-01-10 11:11:18.7943 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2025-01-10 11:11:18.8042 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Ömer\Desktop\BookStore\BookSales\nlog.config
+2025-01-10 11:11:18.8162 Info Configuration initialized.
+2025-01-10 16:13:32.2619 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-01-10 16:13:32.2807 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2025-01-10 16:13:32.2933 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Ömer\Desktop\BookStore\BookSales\nlog.config
+2025-01-10 16:13:32.3057 Info Configuration initialized.
+2025-01-10 16:17:55.4530 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-01-10 16:17:55.4695 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2025-01-10 16:17:55.4825 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Ömer\Desktop\BookStore\BookSales\nlog.config
+2025-01-10 16:17:55.4985 Info Configuration initialized.
+2025-01-10 16:22:33.2237 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-01-10 16:22:33.2505 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2025-01-10 16:22:33.2715 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Ömer\Desktop\BookStore\BookSales\nlog.config
+2025-01-10 16:22:33.2883 Info Configuration initialized.
+2025-01-10 16:25:32.1484 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-01-10 16:25:32.1816 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2025-01-10 16:25:32.2377 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Ömer\Desktop\BookStore\BookSales\nlog.config
+2025-01-10 16:25:32.2584 Info Configuration initialized.
+2025-01-10 16:26:31.0251 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-01-10 16:26:31.0390 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2025-01-10 16:26:31.0519 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Ömer\Desktop\BookStore\BookSales\nlog.config
+2025-01-10 16:26:31.0673 Info Configuration initialized.
+2025-01-10 16:30:56.1786 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-01-10 16:30:56.1920 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2025-01-10 16:30:56.1920 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Ömer\Desktop\BookStore\BookSales\nlog.config
+2025-01-10 16:30:56.2138 Info Configuration initialized.
+2025-01-10 16:33:00.2904 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-01-10 16:33:00.3076 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2025-01-10 16:33:00.3177 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Ömer\Desktop\BookStore\BookSales\nlog.config
+2025-01-10 16:33:00.3315 Info Configuration initialized.
+2025-01-10 16:58:49.1995 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-01-10 16:58:49.2119 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2025-01-10 16:58:49.2119 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Ömer\Desktop\BookStore\BookSales\nlog.config
+2025-01-10 16:58:49.2296 Info Configuration initialized.
+2025-01-10 16:59:17.4562 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-01-10 16:59:17.4685 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2025-01-10 16:59:17.4776 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Ömer\Desktop\BookStore\BookSales\nlog.config
+2025-01-10 16:59:17.4882 Info Configuration initialized.
