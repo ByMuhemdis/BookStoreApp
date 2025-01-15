@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Stroe.Services")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+af3fc2a598476a25f057c7f951b1c8c8e46df50b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5490d3cb6f8649836de00994935f881e755950d4")]
 [assembly: System.Reflection.AssemblyProductAttribute("Stroe.Services")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Stroe.Services")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

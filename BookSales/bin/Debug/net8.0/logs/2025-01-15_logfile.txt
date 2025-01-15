@@ -1,0 +1,16 @@
+2025-01-15 14:21:22.8110 INFO Application started.
+2025-01-15 14:24:05.4642 INFO Application started.
+2025-01-15 14:25:40.1991 INFO Application started.
+2025-01-15 14:26:36.2286 INFO Application started.
+2025-01-15 14:28:13.5287 INFO Application started.
+2025-01-15 14:28:45.9785 INFO searching book value id: 1 found.
+2025-01-15 14:29:49.8406 INFO Application started.
+2025-01-15 14:30:49.9049 INFO Searched value list found
+2025-01-15 14:31:28.7577 INFO Application started.
+2025-01-15 14:32:14.7579 INFO Application started.
+2025-01-15 14:32:26.4890 INFO {"ModelName":"OnActionExecuting","Controller":"Author","Action":"GetAllAuthor","id":null,"CreatAt":"2025-01-15T11:32:26.4491498Z"}
+2025-01-15 14:33:02.3113 INFO Application started.
+2025-01-15 17:24:48.3722 INFO Application started.
+2025-01-15 17:38:07.4720 INFO Application started.
+2025-01-15 17:38:27.2123 INFO {"ModelName":"OnActionExecuting","Controller":"Book","Action":"GetAllBooks","id":null,"CreatAt":"2025-01-15T14:38:27.1934791Z"}
+2025-01-15 17:38:29.4549 INFO Searched value list found

@@ -1,5 +1,7 @@
-﻿using Entities.Models;
+﻿using AutoMapper;
+using Entities.Models;
 using Store.Application.CategoryErrorExceptions;
+using Store.Application.DTOs.CategoryDtos;
 using Store.Application.IRepository;
 using Stroe.Services.IService;
 using Stroe.Services.IService.ICategoryServices;
@@ -16,23 +18,26 @@ namespace Stroe.Services.ServicesManager.CategoryManagers
     {
         private readonly IRepositoryManager _manager;
         private readonly ILoggerService _logger;
+        private readonly IMapper _mapper;
 
-        public CategoryManager(IRepositoryManager manager, ILoggerService logger)
+        public CategoryManager(IRepositoryManager manager, ILoggerService logger, IMapper mapper)
         {
             _manager = manager;
             _logger = logger;
+            _mapper = mapper;
         }
 
-        public async Task<bool> AddCategoryAsync(Category category)
+        public async Task<bool> AddCategoryAsync(CategoryDto categoryDto)
         {
-            if (category == null)
+            if (categoryDto == null)
             {
                 var message = "the Category parameters to be saved cannot be left empty.";
                 _logger.logError(message);
                 throw new CategoryBadRequestException(message);
             }
+            var AddCategoryDto = _mapper.Map<Category>(categoryDto);
 
-            var AddCategory = await _manager.CategoryReposirtory.AddAsync(category);
+            var AddCategory = await _manager.CategoryReposirtory.AddAsync(AddCategoryDto);
             await _manager.CategoryReposirtory.SaveAsync();
             _logger.logInfo("new coategory is added successful.");
             return true;
@@ -61,7 +66,7 @@ namespace Stroe.Services.ServicesManager.CategoryManagers
 
         }
 
-        public async Task<IEnumerable<Category>> GetCategoryAllAsync(bool tracking)
+        public async Task<IEnumerable<CategoryDto>> GetCategoryAllAsync(bool tracking)
         {
             var allCategoryList = await _manager.CategoryReposirtory.GetAllAsync(false);
             if (allCategoryList == null)
@@ -70,11 +75,12 @@ namespace Stroe.Services.ServicesManager.CategoryManagers
                 _logger.logWarning(message);
                 throw new CategoryBadRequestException(message);
             }
+            var CategoryListDto =_mapper.Map<IEnumerable<CategoryDto>>(allCategoryList);
             _logger.logInfo("Serached value list found.");
-            return allCategoryList.ToList();
+            return CategoryListDto;
         }
 
-        public async Task<Category> GetCategoryByIdAsync(int id, bool tracking)
+        public async Task<CategoryDto> GetCategoryByIdAsync(int id, bool tracking)
         {
             if (id <= 0 || id == null)
             {
@@ -90,11 +96,12 @@ namespace Stroe.Services.ServicesManager.CategoryManagers
                 _logger.logWarning(message);
                 throw new CategoryBadRequestException(message);
             }
+            var categoryDto =_mapper.Map<CategoryDto>(oneCategory);
             _logger.logInfo($"Searching category value id : {id} found."); 
-            return oneCategory;
+            return categoryDto;
         }
 
-        public async Task<bool> UpdateCategoryAsync(int id, Category category)
+        public async Task<bool> UpdateCategoryAsync(int id, CategoryDto categoryDto)
         {
 
             if (id <= 0 || id == null)
@@ -110,22 +117,24 @@ namespace Stroe.Services.ServicesManager.CategoryManagers
                 throw new ArgumentNullException($"category not found. ");
             }
                
-            if (id != category.Id)
-            {
+         
 
-                var message = $"Not Found {id} is Book Table";
-                _logger.logError(message);
-                throw new CategoryBadRequestException(message);
-            }
-                
-
+            //Manuel Mapping 
+            /*
             updateCategory.CategoryName = category.CategoryName;
+            */
 
-            _manager.CategoryReposirtory.Update(updateCategory);
+            //outoMapping
+
+            var updateCategoryDto = _mapper.Map(categoryDto, updateCategory);
+
+            _manager.CategoryReposirtory.Update(updateCategoryDto);
             await _manager.CategoryReposirtory.SaveAsync();
             _logger.logInfo("update process successful");
             return true;
 
         }
+
+       
     }
 }

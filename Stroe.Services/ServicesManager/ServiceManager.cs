@@ -34,8 +34,8 @@ namespace Stroe.Services.ServicesManager
            _loggerService = logger;
 
             _authorService = new Lazy<IAuthorService>(() => new AuthorManager(_repositoryManager, _loggerService,mapper));
-            _bookService = new Lazy<IBookService>(() => new BookManager(_repositoryManager, _loggerService));
-            _categoryService = new Lazy<ICategoryService>(() => new CategoryManager(_repositoryManager, _loggerService));
+            _bookService = new Lazy<IBookService>(() => new BookManager(_repositoryManager, _loggerService,mapper));
+            _categoryService = new Lazy<ICategoryService>(() => new CategoryManager(_repositoryManager, _loggerService, mapper));
 
         }
 

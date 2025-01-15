@@ -1,4 +1,6 @@
 ﻿using Entities.Models;
+using Entities.Pagination;
+using Store.Application.DTOs.BookDtos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,13 +11,13 @@ namespace Stroe.Services.IService.IBookServices
 {
     public interface IBookService
     {
-        Task<Book> GetBookByIdAsync(int Id, bool tracking);
-        Task<IEnumerable <Book>> GetBookAllAsync(bool tracking);
+        Task<BookDto> GetBookByIdAsync(int Id, bool tracking);
+        Task<(IEnumerable<BookDto> books, MetaData metaData)> GetBookAllAsync(BookPaginationParameters bookPaginationParameters,bool tracking);//sayfalamadan dolayı burada ProjetcParameter ifadesini ekledik
 
-        Task<bool> AddBookAsync(Book book);
+        Task<bool> AddBookAsync(BookDto bookDto);
         Task<bool> DeleteBookByIdAsync(int Id,bool tracking);
 
-        Task<bool> UpdateBookAsync(int Id, Book book);
+        Task<bool> UpdateBookAsync(int Id, BookUpdateDto bookDto);
         
 
     }
