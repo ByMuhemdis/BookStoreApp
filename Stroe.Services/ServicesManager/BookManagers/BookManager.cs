@@ -1,8 +1,12 @@
 ﻿using AutoMapper;
 using Entities.Models;
 using Entities.Pagination;
+using Entities.Search;
+using Entities.Sort;
+using Microsoft.EntityFrameworkCore;
 using Store.Application.BookErrorExceptions;
 using Store.Application.DTOs.BookDtos;
+using Store.Application.ErrorExceptions.BookErrorExceptions;
 using Store.Application.IRepository;
 using Store.Application.IRepository.IBook;
 using Stroe.Services.IService;
@@ -74,6 +78,8 @@ namespace Stroe.Services.ServicesManager.BookManagers
         public async Task<(IEnumerable<BookDto> books, MetaData metaData)> GetBookAllAsync(BookPaginationParameters bookPaginationParameters,bool tracking)
         {
             // var AllBook = await _manager.BookReposirtory.GetAllAsync(false); //**burası yerine bookrepositoryde oluşturulan sorguyu çagıralım.
+            if (!bookPaginationParameters.ValidePriceRagce)
+                throw new PriceOutofRangeBadRequestException();
 
             var allBookPagination = await _manager.BookReposirtory.GetPaginationForBookRequestQueryAsync(bookPaginationParameters, false);
             if (allBookPagination == null)
@@ -113,6 +119,20 @@ namespace Stroe.Services.ServicesManager.BookManagers
 
         }
 
+        public async Task<List<BookDto>> GetBookSearcharametersAsync(BookSearchParameters bookSearchParameters, bool tracking)//Arama
+        {
+            var bookSearch= await _manager.BookReposirtory.GetSearchBookRequestParameters(bookSearchParameters, false);
+            var a= _mapper.Map<List<BookDto>>(bookSearch);
+            return a;
+        }
+
+        public async Task<List<BookDto>> GetBookSortharametersAsync(BookShortParameters bookShortParameters, bool tracking)//Sıralama
+        {
+            var bookShort = await _manager.BookReposirtory.GetBookSortharametersAsync(bookShortParameters, false);
+            var bookResponse = _mapper.Map<List<BookDto>>(bookShort);
+
+            return bookResponse.ToList();
+        }
 
         public async Task<bool> UpdateBookAsync(int Id, BookUpdateDto bookBDto)
         {

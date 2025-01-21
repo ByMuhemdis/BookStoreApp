@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "v0PGLoN2LWk=",
+  "dgSpecHash": "7vykRFsgwL8=",
   "success": true,
   "projectFilePath": "C:\\Users\\Ömer\\Desktop\\BookStore\\BookSales\\BookSales.csproj",
   "expectedPackageFiles": [
@@ -70,6 +70,7 @@
     "C:\\Users\\Ömer\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.35.0\\system.identitymodel.tokens.jwt.6.35.0.nupkg.sha512",
     "C:\\Users\\Ömer\\.nuget\\packages\\system.io.filesystem.accesscontrol\\5.0.0\\system.io.filesystem.accesscontrol.5.0.0.nupkg.sha512",
     "C:\\Users\\Ömer\\.nuget\\packages\\system.io.pipelines\\6.0.3\\system.io.pipelines.6.0.3.nupkg.sha512",
+    "C:\\Users\\Ömer\\.nuget\\packages\\system.linq.dynamic.core\\1.5.1\\system.linq.dynamic.core.1.5.1.nupkg.sha512",
     "C:\\Users\\Ömer\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
     "C:\\Users\\Ömer\\.nuget\\packages\\system.memory.data\\1.0.2\\system.memory.data.1.0.2.nupkg.sha512",
     "C:\\Users\\Ömer\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",

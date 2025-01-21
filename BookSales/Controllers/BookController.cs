@@ -1,6 +1,8 @@
 ﻿using BookSales.ActionFilter;
 using Entities.Models;
 using Entities.Pagination;
+using Entities.Search;
+using Entities.Sort;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Store.Application.DTOs.BookDtos;
@@ -32,10 +34,36 @@ namespace BookSales.Controllers
 
             return Ok(pegedResult.books);
         }
+
+
+        [HttpGet("[action]")]
+
+        public async Task<IActionResult> GetASearchBooks([FromQuery] BookSearchParameters bookSerach)//arama APi
+        {
+
+            var searchResult = await _serviceManager.BookService.GetBookSearcharametersAsync(bookSerach, false);
+            return Ok(searchResult);
+        }
+
+
+        [HttpGet("[action]")]
+
+        public async Task<IActionResult> GetSearchBooks([FromQuery] BookShortParameters bookSort)//sıralama APi
+        {
+            if (!ModelState.IsValid)
+            {
+                return UnprocessableEntity(ModelState);
+            }
+            var searchResult = await _serviceManager.BookService.GetBookSortharametersAsync(bookSort, false);
+            return Ok(searchResult);
+        }
         [HttpGet("[action]")]
         public async Task<IActionResult> GetOneBook(int id)
         {
-
+            if (!ModelState.IsValid)
+            {
+                return UnprocessableEntity(ModelState);
+            }
             var response = await _serviceManager.BookService.GetBookByIdAsync(id, false);
             return Ok(response);
         }
@@ -62,9 +90,11 @@ namespace BookSales.Controllers
                  {
                       return UnprocessableEntity(ModelState);
                  }
-           */
+            */
+
             var response = await _serviceManager.BookService.UpdateBookAsync(id, bookDto);
             return Ok(response);
+
         }
 
         [HttpDelete("[action]")]

@@ -64,7 +64,7 @@ namespace Store.Persistence.Repository
             var query = Table.AsQueryable();
             if(!tracking)
                 query = query.AsNoTracking();
-            return query;
+            return query.Where(method);
         }
         public bool Remove(T entities)
         {

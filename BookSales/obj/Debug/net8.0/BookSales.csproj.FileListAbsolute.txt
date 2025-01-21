@@ -154,3 +154,4 @@ C:\Users\Ömer\Desktop\BookStore\BookSales\obj\Debug\net8.0\ref\BookSales.dll
 C:\Users\Ömer\Desktop\BookStore\BookSales\bin\Debug\net8.0\nlog.config
 C:\Users\Ömer\Desktop\BookStore\BookSales\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\Ömer\Desktop\BookStore\BookSales\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Ömer\Desktop\BookStore\BookSales\bin\Debug\net8.0\System.Linq.Dynamic.Core.dll

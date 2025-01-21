@@ -1,8 +1,12 @@
 ﻿using Entities.Models;
 using Entities.Pagination;
+using Entities.Search;
+using Entities.Sort;
 using Microsoft.EntityFrameworkCore;
+using Store.Application.DTOs.BookDtos;
 using Store.Application.IRepository.IBook;
 using Store.Persistence.Context;
+using Store.Persistence.Extensions.BookSearchExtension;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,6 +20,16 @@ namespace Store.Persistence.Repository.Books
         public BookRepository(BookStoreAppContext context) : base(context)
         {
         }
+
+        public async Task<IQueryable<Book>> GetBookSortharametersAsync(BookShortParameters bookShortParameters, bool tracking)
+        {
+           var shortBook = await GetAllAsync(tracking);
+
+            var Book = shortBook.Sort(bookShortParameters.OrderBy);
+
+            return Book;    
+        }
+
         //Sadece sayfalama proje kısmında kullanılacagı için burada getirirken yeni bir getAll yapacagız. ve artık listelemelerde bu metot kyullanılacak.
         public async Task<PageList<Book>> GetPaginationForBookRequestQueryAsync(BookPaginationParameters bookpaginationParameters, bool tracking)
         {
@@ -38,12 +52,24 @@ namespace Store.Persistence.Repository.Books
 
             */
             //2. ol bir pagetlist yazarak daha detaylı bir sayfalama işlemi yapabilirz.
-            var booksPagination = await GetAllAsync(tracking);
+            var booksPagination = await GetWhereAsync(b =>
+            (b.Price >= bookpaginationParameters.MinPrice )&& 
+            (b.Price <= bookpaginationParameters.MaxPrice )
+            , tracking);
 
             var bookPaginations =await booksPagination.ToListAsync();
 
-            return PageList<Book>.ToPagedList(bookPaginations, bookpaginationParameters.PageNumber, bookpaginationParameters.Pagesize);
+            return PageList<Book>.ToPagedList(bookPaginations, bookpaginationParameters.PageNumber, bookpaginationParameters.Pagesize);//sayfalama kısmı 
 
+        }
+
+        public async Task<IQueryable<Book>> GetSearchBookRequestParameters(BookSearchParameters searchParameters, bool tracking)
+        {
+            var searchBook =await  GetAllAsync(tracking);
+
+            var book = searchBook.Search(searchParameters.SearchTerm);
+
+            return book;    
         }
     }
 }

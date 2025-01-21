@@ -1,0 +1,5 @@
+2025-01-16 12:29:45.2071 INFO Application started.
+2025-01-16 12:50:12.5250 INFO {"ModelName":"OnActionExecuting","Controller":"Book","Action":"GetAllBooks","id":null,"CreatAt":"2025-01-16T09:50:12.5139062Z"}
+2025-01-16 12:50:13.9331 INFO Searched value list found
+2025-01-16 12:50:31.9782 INFO {"ModelName":"OnActionExecuting","Controller":"Book","Action":"GetAllBooks","id":null,"CreatAt":"2025-01-16T09:50:31.9781968Z"}
+2025-01-16 12:50:32.0647 INFO Searched value list found
